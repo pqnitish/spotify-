@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+body{
+
+    background-color:antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    font-family: "Ubuntu" sans-serif;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 64px;
+    background-color: black;
+    color: white;
+    }
+    nav ul li{
+        padding: 0 12px;
+    }
+.brand img{
+    width: 54px;
+}
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.container{
+    min-height: 72vh;
+    background-color: black;
+    color: white;
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    width: 65%;
+    margin: 25px auto;
+    border-radius: 10px;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.bottom{
+    position: sticky;
+    height: 65px;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items:  center;
+    flex-direction: column;
+    
+}
+.icons{
+    margin-top: 12px;
+}
+.icons i{
+    cursor: pointer;
+    padding: 3px;
+    font-size:22px;
+}
+#myProgressBar{
+    width: 85vw;
+    cursor: pointer;
+}
+.songItemContainer{
+    margin-top: 32px;
+}
+
+.songItem{
+    height: 35px;
+    display: flex;
+    background-color: white;
+    width: 80%;
+    color: black;
+    margin: 0 23px;
+    margin-top: 6px;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 22px;
+}
+.songItem img{
+    width: 44px;
+    margin: 23px 0;
+    padding: 8px;
+    border-radius: 50px;
+}
+.timestamp{
+    margin: 23px 0;
+    padding-right: 23px;
+}
+.songInfo{
+    position: absolute;
+    left: 8vw;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity .4s ease-in;
+    font-family: 'Varela Round', sans-serif;
+}
+
+    
+  
